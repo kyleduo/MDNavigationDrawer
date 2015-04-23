@@ -1,0 +1,26 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+	</style>
+
+	<style name="CustomTheme" parent="Theme.AppCompat">
+		<item name="android:actionBarStyle">@style/CustomActionBar</item>
+	</style>
+
+	<style name="CustomTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="android:windowActionBar">false</item>
+	</style>
+
+	<style name="CustomTheme.NoActionBar.Translucent">
+
+	</style>
+
+	<style name="CustomActionBar" parent="Widget.AppCompat.ActionBar">
+		<item name="android:background">@color/primary_color</item>
+	</style>
+
+
+</resources>

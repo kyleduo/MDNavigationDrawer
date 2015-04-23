@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="primary_color">#FF684A</color>
+	<color name="status_bar_color">#33000000</color>
+	<color name="content_background">#FFE6D0A0</color>
+	<color name="drawer_background">#FFA96A</color>
+</resources>

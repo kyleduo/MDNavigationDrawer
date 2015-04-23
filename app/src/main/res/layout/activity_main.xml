@@ -1,0 +1,44 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+										xmlns:tools="http://schemas.android.com/tools"
+										android:id="@+id/drawer_layout"
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										tools:context="com.kyleduo.theday.ui.activity.MainActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/main_toolbar"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:minHeight="?attr/actionBarSize"
+			android:fitsSystemWindows="true"
+			android:elevation="4dp"
+			android:background="@color/primary_color"/>
+
+		<FrameLayout
+			android:id="@+id/main_content_container"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			<!-- content goes here -->
+		</FrameLayout>
+
+	</LinearLayout>
+
+	<fragment
+		android:id="@+id/main_drawer_fragment"
+		android:layout_width="@dimen/drawer_width"
+		android:layout_height="match_parent"
+		android:name="com.kyleduo.demo.DrawerFragment"
+		tools:layout="@layout/fragment_drawer"
+		android:fitsSystemWindows="false"
+		android:elevation="10dp"
+		android:layout_gravity="start"
+		/>
+
+
+</android.support.v4.widget.DrawerLayout>
+

@@ -1,0 +1,5 @@
+<resources>
+	<style name="CustomTheme.NoActionBar.Translucent">
+		<item name="android:windowTranslucentStatus">true</item>
+	</style>
+</resources>
